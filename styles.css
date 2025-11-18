@@ -8,9 +8,13 @@
     display: grid;
     place-items: center;
 }
-.text{
+.text,
+.text-error{
     padding: 2rem;
     color: white;
     font-weight: bold;
     font-size: 2rem;
+}
+.text-error{
+    color: red;
 }
